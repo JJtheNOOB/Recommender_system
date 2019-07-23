@@ -5,5 +5,9 @@
 
 ## Algorithm:
 - Matrix Factorization
-   - Factor a matrix __R__ (m * n) __the user movie matrix__ into 2 matrix U (m * k) and R (k * n)
-   - Errorij =  completion term * cost function * regularization term
+   - Factor a matrix __R__ (m * n) __the user movie matrix__ into 2 matrix __U__ (m * k) and __R__ (k * n)
+   - Error_ij_ =  completion term * cost function * regularization term
+   - Fill U and P with random values first, calculating error term based on the cost function
+   - Then alternating back and forth between matrix U and matrix P to iteratively decrease the error
+   - It continues of doing this until error term is minimized
+   - Then U and P are multiplied together to the original matrix R
