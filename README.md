@@ -8,3 +8,7 @@
 - 7/23/2019
   - Added ALS algorithm for movie recommender
   - The Netflix prize wining algorithm
+
+- 8/12/2019
+  - Added SVD algorithm for movie recommender using surprise
+  - Crossed referenced with Susan Li and Frank Kane
